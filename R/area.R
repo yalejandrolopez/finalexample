@@ -21,7 +21,7 @@ area <- function(h,w, fig) {
     area = h*w
   } else {
     if(fig=="circle" | fig=="c"){
-      area = h*h*pi
+      area = h*h*base::pi
     } else {
       if(fig=="triangle" | fig=="t"){
         area = (h*w) / 2
